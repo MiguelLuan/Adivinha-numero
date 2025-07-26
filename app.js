@@ -1,12 +1,13 @@
 let listaDeNumerosSorteados = [];
-let numeroAleatorio = gerarNumeroAleatorio(1,100);
+const limiteMax = 100;
+let numeroAleatorio = gerarNumeroAleatorio(1,limiteMax);
 let tentativa = 0;
 
 exibirMensagemInicial();
 
 function exibirMensagemInicial(){
     exibirTextoNaTela("h1","Jogo do número secreto");
-    exibirTextoNaTela("p","Escolha um número entre 1 e 10");
+    exibirTextoNaTela("p",`Escolha um número entre 1 e ${limiteMax}`);
    
 }
 
@@ -52,7 +53,7 @@ function limparCampo(tag){
 }
 
 function reiniciarJogo(){
-    numeroAleatorio = gerarNumeroAleatorio(1,100);
+    numeroAleatorio = gerarNumeroAleatorio(1,limiteMax);
     limparCampo("input");
     tentativa = 0;
     exibirMensagemInicial();
