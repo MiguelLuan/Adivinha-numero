@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroAleatorio = gerarNumeroAleatorio(1,10);
+let numeroAleatorio = gerarNumeroAleatorio(1,100);
 let tentativa = 0;
 
 exibirMensagemInicial();
@@ -52,7 +52,7 @@ function limparCampo(tag){
 }
 
 function reiniciarJogo(){
-    numeroAleatorio = gerarNumeroAleatorio(1,10);
+    numeroAleatorio = gerarNumeroAleatorio(1,100);
     limparCampo("input");
     tentativa = 0;
     exibirMensagemInicial();
