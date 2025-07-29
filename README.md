@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-    <b>Página web no qual o usuário tenta adivinhar um número aleatório a cada jogada! 🎮</b>
+    <b>Página web no qual o usuário tenta adivinhar um número aleatório a cada rodada! 🎮</b>
 </p>
 
 ---
