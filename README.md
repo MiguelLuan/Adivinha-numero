@@ -23,7 +23,7 @@
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-        <img src="img/Tela_do_site.gif" alt="Image Example" width="400px">
+        <img src="img/Tela_do_site.gif" alt="Image Example" width="700px">
 </p>
 
 <h2 id="tech">💻 Technologies</h2>
