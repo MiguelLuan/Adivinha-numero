@@ -73,6 +73,12 @@ code .
 
 ---
 
+<h2 id="access">🌐 Disponível em:</h2>
+
+> Github Pages -> https://miguelluan.github.io/Adivinhar-numero/
+
+---
+
 <h2 id="license">📝 Licença</h3>
 
 Este projeto esta sobe a licença [MIT](LICENSE).
